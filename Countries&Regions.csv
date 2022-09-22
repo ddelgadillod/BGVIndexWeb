@@ -1,0 +1,226 @@
+Country;Code;Region1;Region2;Region3;fillby;fillby2
+Afghanistan;AFG;West Asia;NA;NA;140;10
+Albania;ALB;Southeast Europe;NA;NA;100;10
+Algeria;DZA;South and East Mediterranean;NA;NA;260;10
+American Samoa;ASM;Pacific Region;NA;NA;260;10
+Andorra;;Southwest Europe;NA;NA;260;10
+Angola;AGO;Central Africa;Southern Africa;NA;100;10
+Anguilla;AIA;Caribbean;NA;NA;180;10
+Antigua and Barbuda;ATG;Caribbean;NA;NA;180;10
+Argentina;ARG;Temperate South America;NA;NA;60;10
+Armenia;ARM;Central Asia;South Eastern Europe;NA;180;10
+Aruba;ABW;Caribbean;NA;NA;180;10
+Australia;AUS;Australia;NA;NA;60;10
+Austria;AUT;Northwest Europe;NA;NA;60;10
+Azerbaijan;AZE;Central Asia;NA;NA;180;10
+Bahamas, The;BHM;Caribbean;NA;NA;180;10
+Bahrain;BHR;West Asia;NA;NA;140;10
+Bangladesh;BGD;South Asia;NA;NA;100;10
+Barbados;BRB;Caribbean;NA;NA;180;10
+Belarus;BLR;Northeast Europe;NA;NA;140;10
+Belgium;BEL;Northwest Europe;NA;NA;60;10
+Belize;BLZ;Central America and Mexico;NA;NA;140;10
+Benin;BEN;West Africa;NA;NA;60;10
+Bermuda;BMU;Caribbean;NA;NA;180;10
+Bhutan;BTN;South Asia;NA;NA;100;10
+Bolivia;BOL;Andes;Tropical South America;NA;260;10
+Bosnia and Herzegovina;BIH;Southeast Europe;NA;NA;100;10
+Botswana;BWA;Southern Africa;NA;NA;180;10
+Brazil;BRA;Tropical South America;NA;NA;100;10
+British Virgin Islands;VGB;Caribbean;NA;NA;180;10
+Brunei;BRN;Southeast Asia;NA;NA;260;10
+Bulgaria;BGR;Southeast Europe;NA;NA;100;10
+Burkina Faso;BFA;West Africa;NA;NA;60;10
+Burma;MMR;Southeast Asia;NA;NA;260;10
+Burundi;BDI;East Africa;NA;NA;140;10
+Cabo Verde;CPV;West Africa;NA;NA;60;10
+Cambodia;KHM;Southeast Asia;NA;NA;260;10
+Cameroon;CMR;Central Africa;NA;NA;100;10
+Canada;CAN;North America;NA;NA;220;10
+Cayman Islands;CYM;Caribbean;NA;NA;180;10
+Central African Republic;CAF;Central Africa;NA;NA;100;10
+Chad;TCD;West Africa;NA;NA;60;10
+Chile;CHL;Andes;NA;NA;260;10
+China;CHN;East Asia;NA;NA;60;10
+Colombia;COL;Andes;Tropical South America;NA;260;10
+Comoros;COM;Indian Ocean Islands;NA;NA;220;10
+Congo, Democratic Republic of the;COD;Central Africa;NA;NA;100;10
+Congo, Republic of the;COG;Central Africa;NA;NA;100;10
+Cook Islands;COK;Pacific Region;NA;NA;260;10
+Costa Rica;CRI;Central America and Mexico;NA;NA;140;10
+Cote d'Ivoire;CIV;West Africa;NA;NA;60;10
+Croatia;HRV;Southeast Europe;NA;NA;100;10
+Cuba;CUB;Caribbean;NA;NA;180;10
+Curacao;CUW;Caribbean;NA;NA;180;10
+Cyprus;CYP;South and East Mediterranean;NA;NA;260;10
+Czech Republic;CZE;Northeast Europe;NA;NA;140;10
+Denmark;DNK;Northwest Europe;NA;NA;60;10
+Djibouti;DJI;East Africa;NA;NA;140;10
+Dominica;DMA;Caribbean;NA;NA;180;10
+Dominican Republic;DOM;Caribbean;NA;NA;180;10
+Ecuador;ECU;Andes;Tropical South America;NA;260;10
+Egypt;EGY;South and East Mediterranean;NA;NA;260;10
+El Salvador;SLV;Central America and Mexico;NA;NA;140;10
+Equatorial Guinea;GNQ;Central Africa;NA;NA;100;10
+Estonia;EST;Northeast Europe;NA;NA;140;10
+Ethiopia;ETH;East Africa;NA;NA;140;10
+Falkland Islands (Islas Malvinas);FLK;Temperate South America;NA;NA;60;10
+Faroe Islands;FRO;Northwest Europe;NA;NA;60;10
+Fiji;FJI;Pacific Region;NA;NA;260;10
+Finland;FIN;Northwest Europe;NA;NA;60;10
+France;FRA;Northwest Europe;South Western Europe;NA;60;10
+French Polynesia;PYF;Pacific Region;NA;NA;260;10
+Gabon;GAB;Central Africa;NA;NA;100;10
+Gambia, The;GMB;West Africa;NA;NA;60;10
+Georgia;GEO;Central Asia;South Eastern Europe;NA;180;10
+Germany;DEU;Northwest Europe;NA;NA;60;10
+Ghana;GHA;West Africa;NA;NA;60;10
+Gibraltar;GIB;Southwest Europe;NA;NA;260;10
+Greece;GRC;Southeast Europe;NA;NA;100;10
+Greenland;GRL;North America;NA;NA;220;10
+Grenada;GRD;Caribbean;NA;NA;180;10
+Guam;GUM;Pacific Region;NA;NA;260;10
+Guatemala;GTM;Central America and Mexico;NA;NA;140;10
+Guernsey;GGY;Northwest Europe;NA;NA;60;10
+Guinea;GIN;West Africa;NA;NA;60;10
+Guinea-Bissau;GNB;West Africa;NA;NA;60;10
+Guyana;GUY;Tropical South America;NA;NA;100;10
+Haiti;HTI;Caribbean;NA;NA;180;10
+Honduras;HND;Central America and Mexico;NA;NA;140;10
+Hong Kong;HKG;East Asia;NA;NA;60;10
+Hungary;HUN;Northeast Europe;NA;NA;140;10
+Iceland;ISL;Northwest Europe;NA;NA;60;10
+India;IND;South Asia;NA;NA;100;10
+Indonesia;IDN;Southeast Asia;NA;NA;260;10
+Iran;IRN;West Asia;NA;NA;140;10
+Iraq;IRQ;West Asia;NA;NA;140;10
+Ireland;IRL;Northwest Europe;NA;NA;60;10
+Isle of Man;IMN;Northwest Europe;NA;NA;60;10
+Israel;ISR;West Asia;South and East Mediterranean;NA;140;10
+Italy;ITA;Southwest Europe;NA;NA;260;10
+Jamaica;JAM;Caribbean;NA;NA;180;10
+Japan;JPN;East Asia;NA;NA;60;10
+Jersey;JEY;Northwest Europe;NA;NA;60;10
+Jordan;JOR;West Asia;South and East Mediterranean;NA;140;10
+Kazakhstan;KAZ;Central Asia;NA;NA;180;10
+Kenya;KEN;East Africa;NA;NA;140;10
+Kiribati;KIR;Pacific Region;NA;NA;260;10
+Korea, South;KOR;East Asia;NA;NA;60;10
+Kosovo;KSV;Southeast Europe;NA;NA;100;10
+Kuwait;KWT;West Asia;NA;NA;140;10
+Kyrgyzstan;KGZ;Central Asia;NA;NA;180;10
+Laos;LAO;Southeast Asia;NA;NA;260;10
+Latvia;LVA;Northeast Europe;NA;NA;140;10
+Lebanon;LBN;West Asia;South and East Mediterranean;NA;140;10
+Lesotho;LSO;Southern Africa;NA;NA;180;10
+Liberia;LBR;West Africa;NA;NA;60;10
+Libya;LBY;South and East Mediterranean;NA;NA;260;10
+Liechtenstein;LIE;Southwest Europe;NA;NA;260;10
+Lithuania;LTU;Northeast Europe;NA;NA;140;10
+Luxembourg;LUX;Northwest Europe;NA;NA;60;10
+Macau;MAC;East Asia;NA;NA;60;10
+Macedonia;MKD;Southeast Asia;NA;NA;260;10
+Macedonia;MKD;Southeast Europe;NA;NA;100;10
+Madagascar;MDG;Indian Ocean Islands;NA;NA;220;10
+Malawi;MWI;Southern Africa;NA;NA;180;10
+Malaysia;MYS;Southeast Asia;NA;NA;260;10
+Maldives;MDV;South Asia;NA;NA;100;10
+Mali;MLI;West Africa;NA;NA;60;10
+Malta;MLT;South and East Mediterranean;NA;NA;260;10
+Marshall Islands;MHL;Australia;NA;NA;60;10
+Mauritania;MRT;West Africa;NA;NA;60;10
+Mauritius;MUS;Indian Ocean Islands;NA;NA;220;10
+Mexico;MEX;Central America and Mexico;NA;NA;140;10
+Micronesia, Federated States of;FSM;Australia;NA;NA;60;10
+Moldova;MDA;Southeast Asia;NA;NA;260;10
+Moldova;MDA;Northeast Europe;NA;NA;140;10
+Monaco;MCO;Northwest Europe;NA;NA;60;10
+Mongolia;MNG;East Asia;NA;NA;60;10
+Montenegro;MNE;Southeast Europe;NA;NA;100;10
+Morocco;MAR;South and East Mediterranean;NA;NA;260;10
+Mozambique;MOZ;Southern Africa;NA;NA;180;10
+Namibia;NAM;Southern Africa;NA;NA;180;10
+Nepal;NPL;South Asia;NA;NA;100;10
+Netherlands;NLD;Northwest Europe;NA;NA;60;10
+New Caledonia;NCL;Pacific Region;NA;NA;260;10
+New Zealand;NZL;Australia;NA;NA;60;10
+Nicaragua;NIC;Central America and Mexico;NA;NA;140;10
+Niger;NER;West Africa;NA;NA;60;10
+Nigeria;NGA;West Africa;NA;NA;60;10
+Niue;NIU;Pacific Region;NA;NA;260;10
+Northern Mariana Islands;MNP;Australia;NA;NA;60;10
+Norway;NOR;Northwest Europe;NA;NA;60;10
+Oman;OMN;West Asia;NA;NA;140;10
+Pakistan;PAK;West Asia;NA;NA;140;10
+Palau;PLW;Australia;NA;NA;60;10
+Panama;PAN;Central America and Mexico;NA;NA;140;10
+Papua New Guinea;PNG;Pacific Region;NA;NA;260;10
+Paraguay;PRY;Tropical South America;NA;NA;100;10
+Peru;PER;Andes;Tropical South America;NA;260;10
+Philippines;PHL;Southeast Asia;NA;NA;260;10
+Poland;POL;Northeast Europe;NA;NA;140;10
+Portugal;PRT;Southwest Europe;NA;NA;260;10
+Puerto Rico;PRI;Caribbean;NA;NA;180;10
+Qatar;QAT;West Asia;NA;NA;140;10
+Romania;ROU;Southeast Europe;NA;NA;100;10
+Russia;RUS;Northeast Europe;NA;NA;140;10
+Rwanda;RWA;East Africa;NA;NA;140;10
+Saint Kitts and Nevis;KNA;Caribbean;NA;NA;180;10
+Saint Lucia;LCA;Caribbean;NA;NA;180;10
+Saint Martin;MAF;Caribbean;NA;NA;180;10
+Saint Pierre and Miquelon;SPM;North America;NA;NA;220;10
+Saint Vincent and the Grenadines;VCT;Caribbean;NA;NA;180;10
+Samoa;WSM;Pacific Region;NA;NA;260;10
+San Marino;SMR;Southwest Europe;NA;NA;260;10
+Sao Tome and Principe;STP;Central Africa;NA;NA;100;10
+Saudi Arabia;SAU;West Asia;NA;NA;140;10
+Senegal;SEN;West Africa;NA;NA;60;10
+Serbia;SRB;Southeast Europe;NA;NA;100;10
+Seychelles;SYC;Indian Ocean Islands;NA;NA;220;10
+Sierra Leone;SLE;West Africa;NA;NA;60;10
+Singapore;SGP;Southeast Asia;NA;NA;260;10
+Sint Maarten;SXM;Northwest Europe;NA;NA;60;10
+Slovakia;SVK;Northeast Europe;NA;NA;140;10
+Slovenia;SVN;Southeast Europe;NA;NA;100;10
+Solomon Islands;SLB;Pacific Region;NA;NA;260;10
+Somalia;SOM;East Africa;NA;NA;140;10
+South Africa;ZAF;Southern Africa;NA;NA;180;10
+South Sudan;SSD;East Africa;NA;NA;140;10
+Spain;ESP;Southwest Europe;NA;NA;260;10
+Sri Lanka;LKA;South Asia;NA;NA;100;10
+Sudan;SDN;East Africa;NA;NA;140;10
+Suriname;SUR;Tropical South America;NA;NA;100;10
+Swaziland;SWZ;Southern Africa;NA;NA;180;10
+Sweden;SWE;Northwest Europe;NA;NA;60;10
+Switzerland;CHE;Northwest Europe;NA;NA;60;10
+Syria;SYR;West Asia;South and East Mediterranean;NA;140;10
+Taiwan;TWN;East Asia;NA;NA;60;10
+Taiwan;TWN;East Asia;NA;NA;60;10
+Tajikistan;TJK;Central Asia;NA;NA;180;10
+Tajikistan;TJK;Central Asia;NA;NA;180;10
+Tanzania;TZA;East Africa;NA;NA;140;10
+Tanzania;TZA;Southern Africa;NA;NA;180;10
+Thailand;THA;Southeast Asia;NA;NA;260;10
+Timor-Leste;TLS;Southeast Asia;NA;NA;260;10
+Togo;TGO;West Africa;NA;NA;60;10
+Tonga;TON;Pacific Region;NA;NA;260;10
+Trinidad and Tobago;TTO;Caribbean;NA;NA;180;10
+Tunisia;TUN;South and East Mediterranean;NA;NA;260;10
+Turkey;TUR;Southeast Europe;South and East Mediterranean;South Eastern Europe;100;10
+Turkmenistan;TKM;Central Asia;NA;NA;180;10
+Tuvalu;TUV;Pacific Region;NA;NA;260;10
+Uganda;UGA;East Africa;NA;NA;140;10
+Ukraine;UKR;Northeast Europe;NA;NA;140;10
+United Arab Emirates;ARE;West Asia;NA;NA;140;10
+United Kingdom;GBR;Northwest Europe;NA;NA;60;10
+United States;USA;North America;NA;NA;220;10
+Uruguay;URY;Temperate South America;NA;NA;60;10
+Uzbekistan;UZB;Central Asia;NA;NA;180;10
+Vanuatu;VUT;Pacific Region;NA;NA;260;10
+Venezuela;VEN;Tropical South America;NA;NA;100;10
+Vietnam;VNM;Southeast Asia;NA;NA;260;10
+Virgin Islands;VGB;Caribbean;NA;NA;180;10
+West Bank;WBG;West Asia;NA;NA;140;10
+Yemen;YEM;West Asia;NA;NA;140;10
+Zambia;ZMB;Southern Africa;NA;NA;180;10
+Zimbabwe;ZWE;Southern Africa;NA;NA;180;10
