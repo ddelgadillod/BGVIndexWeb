@@ -17,11 +17,11 @@ library(treemap)
 
 options(warn=-1)
 suppressMessages(library(ggplot2)) 
-
+options(browser="chrome")
 
 ######################################################################
 
-seleccionCriterios <- read.csv("seleccionCriterios2302.csv", encoding="UTF8", sep=";", stringsAsFactors=FALSE)
+seleccionCriterios <- read.csv("seleccionCriterios.csv", encoding="UTF-8", sep=",", stringsAsFactors=FALSE)
 
 seleccionCriterios$categoria3[seleccionCriterios$categoria == "BGV List"] <- "BGVCOL"
 seleccionCriterios$categoria3[seleccionCriterios$categoria != "BGV List"] <- "NCB"
