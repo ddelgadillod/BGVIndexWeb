@@ -107,10 +107,10 @@ ui <- dashboardPagePlus(skin = "blue",
                                             "placeholder1"),
                                 
                                 
-                                menuItem("Background", icon = icon("monument"),
-                                         menuSubItem("Intro", tabName = "intro", icon = icon("journal-whills")),
+                                menuItem("About this site", icon = icon("monument"),
+                                         #menuSubItem("About BGV Priorization Index", tabName = "intro", icon = icon("journal-whills")),
                                          #menuSubItem("Intro", tabName = "background", icon = icon("journal-whills")),
-                                         menuSubItem("How?", tabName = "how", icon = icon("gears"))
+                                         menuSubItem("Priorization Index", tabName = "how", icon = icon("gears"))
                                          #menuSubItem("Usage", tabName = "usage", icon = icon("readme"))
                                          ),
                                 menuItem("Pillars", icon = icon("globe"),
@@ -132,10 +132,10 @@ ui <- dashboardPagePlus(skin = "blue",
                                 
                             )
                         ),
-                        
+#tags$link(rel = "stylesheet", type = "text/css", href = "http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/css/custom1.css")                        
                         dashboardBody(title='Prioritizing national plant genetic resources for investment in research using indicators about the geographic origin, vulnerability status, economic benefits, and food security importance',
                                       tags$head(
-                                          tags$link(rel = "stylesheet", type = "text/css", href = "http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/css/custom1.css")
+                                          tags$link(rel = "stylesheet", type = "text/css", href = "custom1.css")
                                       ),
                                       tabItems(
                                           # First tab content
@@ -205,10 +205,10 @@ ui <- dashboardPagePlus(skin = "blue",
                                                       width = 12,
                                                       carouselItem(
                                                           caption = NULL,
-                                                          h3("Main page & main menu"),
+                                                          h2("Main page & main menu"),
                                                           fluidRow(
                                                             div(
-                                                              img(height = 450,
+                                                              img(height = 500,
                                                                   src='http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/main.png',
                                                                   NULL ,
                                                                   style="vertical-align:center"
@@ -226,6 +226,10 @@ ui <- dashboardPagePlus(skin = "blue",
                                                               h4("3. Button to hide the left panel"),
                                                               #p("3. Button to hide the left panel", style = "text-align: justify; font-size:120%"),
                                                               
+                                                            
+                                                              br(),
+                                                              br(),
+                                                              
                                                               
                                                             ),
                                                             
@@ -234,54 +238,44 @@ ui <- dashboardPagePlus(skin = "blue",
                                                           )
                                                     ),
                                                     
+                                                    
                                                     carouselItem(
-                                                      caption = NULL,
-                                                      h2("Background"),
-                                                      fluidRow(
-                                                        column(4,
-                                                               div(
-                                                                 img(height = 120,
-                                                                     src='http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/background.PNG',
-                                                                     NULL ,
-                                                                     style="vertical-align:middle"
-                                                                 ),
-                                                                 style="text-align: left;"
-                                                               ),                                                             ),
-                                                        column(8,
-                                                               p(" The background is two pages:", style = "text-align: justify; font-size:120%"),
-                                                               #br(),
-                                                               p("The intro is a brief description of our work.", style = "text-align: justify; font-size:120%"),
-                                                               #br(),
-                                                               p("How? Here is a summary of the methodology implemented to prioritize species.", style = "text-align: justify; font-size:120%"),
-                                                               #br(),
-                                                               
-                                                               
-                                                               
-                                                        )
-                                                      )
-                                                    ),
-                                                    carouselItem(
-                                                      caption = NULL,
-                                                      h3("Pillars"),
-                                                      fluidRow(
-                                                        column(4,
-                                                               div(
-                                                                 img(height = 160,
-                                                                     src='http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/pillars.PNG',
-                                                                     NULL ,
-                                                                     style="vertical-align:middle"
-                                                                 ),
-                                                                 style="text-align: left;"
-                                                               ),                                                             ),
-                                                        column(8,
-                                                               p("Contain five pages, in that you can visualize data about the selected species, Geographic origin shows a map with highlighted origin region. Vulnerability shows the level of vulnerability of the selected species. Economic importance shows a set of plots of economic variables in time for the selected species. Food security shows plots related to the food security importance of the species. In Summary, you can see the most important information and the priority level of the selected species. ", style = "text-align: justify; font-size:120%"),
-                                                               br(),
-                                                               p("dasdadadadsaddasfsdfsdfsd.")
-                                                               
-                                                        )
-                                                      )
-                                                    ),
+                                                          caption = NULL,
+                                                          h2("Pillars"),
+                                                          br(),
+                                                          br(),
+                                                            
+                                                          fluidRow(
 
+                                                            div(
+                                                              img(height = 220,
+                                                                  src='http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/pillars.PNG',
+                                                                  NULL ,
+                                                                  style="vertical-align:center"
+                                                              ),
+                                                              style="text-align: left;"
+                                                            ), 
+
+                                                             
+                                                            fluidPage(
+                                                              br(),
+                                                              p("Contain five pages, in that you can visualize data about the selected species, Geographic origin shows a map with highlighted origin region. Vulnerability shows the level of vulnerability of the selected species. Economic importance shows a set of plots of economic variables in time for the selected species. Food security shows plots related to the food security importance of the species. In Summary, you can see the most important information and the priority level of the selected species. ", style = "text-align: justify; font-size:120%"),
+                                                              br(),
+                                                              br(),
+                                                              br(),
+                                                              br(),
+                                                              br(),
+                                                              br(),
+                                                              br(),
+                                                              
+                                                              
+                                                            ),
+                                                            
+ 
+                                                             
+                                                          )
+                                                    ),
+                                                    
 
                                                     
 
@@ -334,6 +328,19 @@ ui <- dashboardPagePlus(skin = "blue",
                                           
                                           tabItem(tabName = "how",
                                                   h1("Priority index based on fuzzy logic"),
+                                                  
+                                                                                                     
+                                                    
+                                                  p("This website shows the information on the species on Colombian Vegetal Germplasm Bank (BGVCOL) and external species (NCB) retrieved from open-access databases in four pillars: the geographic origin, the state of vulnerability, crop's economic importance for the country, food security importance, and the results of the prioritization index using a data-driven approach with fuzzy logic. Users can select a species and navigate over different options in the left bar to visualize in interactive ways related data to species, a summary of the results for each species, and download data used in this study.  ", style = "text-align: justify;font-family: 'arial'; font-size:100%"),
+                                                  br(),
+                                                  div(
+                                                      img(height = 250,  src='https://www.agrosavia.co/media/3535/01.jpg', alt="www.agrosavia.co" , style="vertical-align:middle"),
+                                                      style="text-align: center;"),
+                                                  br(),
+                                                  
+                                                      
+                                                  
+                                                  
                                                   p("We asked how to define a list of priorities species for two of our primary pre-breeding responsibilities in the Colombian germplasm banks, which are:", style = "font-family: 'arial'; font-size:100%"),
                                                   p("1. What species must conserve within the bank", style = "font-family: 'arial'; font-size:100%"),
                                                   p("2. What species we should invest money in scientific research.", style = "font-family: 'arial'; font-size:100%"), 
@@ -345,7 +352,7 @@ ui <- dashboardPagePlus(skin = "blue",
                                                   p("The general strategy for analyzing raw data of 345 Plant Genetic Resources for Food and Agriculture (PGRFA) from Colombia."),
                                                   
                                                   p("Two hundred seventy-five (275) are part of the National Plant Germplasm Bank (i.e., BGVCOL group), and 70 are essential for the Colombia government but not currently conserved in the BGVCOL (i.e., NCB group)."),
-                                                  p("i. The analysis includes four data-driving pillars with diferent variables(the number in parenthesis)."),
+                                                  p("i. The analysis includes four data-driving pillars with diferent variables."),
                                                   p("ii. The preprocessing of the raw data for each variable within each pillar: geographic origin (green), vulnerability (yellow), economic importance (red), and food security importance (blue). Both economic importance and food security importance had several holes of information for some PGRFA. In those cases, the preprocessing included values from the phylogenetically closest PGRFA to impute and, therefore, the uncertainty calculation (purple box)."), 
                                                   p("iii. The construction of the variables membership function (fuzzy sets) is based on either singleton or trapezoid. The geographic origin and vulnerability involved a unique qualitative variable that generated a singleton fuzzy logic function. Economic and food security importance had four and ten quantitative variables, generating trapezoid fuzzy logic functions."),
                                                   p("iv. The final inference for the prioritization list and uncertainty level is based on Gaussian and singleton fuzzy logic functions."),
@@ -479,7 +486,7 @@ ui <- dashboardPagePlus(skin = "blue",
                                                   #fluidRow(box(textOutput("covEsp")),
                                                   #h1(textOutput("covEsp"), align = "center"),
                                                   h3("Lafay Index"),
-                                                  p("Se evalua la relacion entre la produccion de una especie y su consumo aparente (es decir, produccion mas importacion menos exportacion) en un anno. Si este valor es superior a uno, el pais es un exportador neto de la especie, y cuanto mayor es el nivel, mas importantes son las exportaciones como destino de la produccion nacional de la especie.",style = "font-family: 'arial'; font-size:120%"),
+                                                  p("Lafay index (LFI), explaining the competitive strength of individual products or product groups [1]. The LFI positive value shows that the country possesses a comparative advantage while the negative LFI value shows that the country possesses a comparative disadvantage. LFI is result of quotient between the production of a crop and its apparent consumption (i.e., production plus import minus export) in a year. If this value is higher than one, the country is a net exporter of the crop, and the higher the level, the more important are the exports as a destination for the domestic production of the crop.",style = "font-family: 'arial'; font-size:120%"),
                                                   #fluidRow(box(textOutput("indLafEsp")),
                                                   #h1(textOutput("indLafEsp"), align = "center"),
                                                   h3("Income per hectare"),
@@ -493,6 +500,9 @@ ui <- dashboardPagePlus(skin = "blue",
                                                   #h4(textOutput("Specie"), align = "center"),
                                                   tags$img(height = 400, width = 600,src = "http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/compact_economic.jpg"),
                                                   br(),
+                                                  
+                                                  h5("References"),
+                                                  p("[1] Lafay, G. The Measurement of Revealed Comparative Advantages. In International Trade Modelling; Springer: New York, NY, USA, 1992.",style = "font-family: 'arial'; font-size:90%"),
                                           ),
                                           tabItem(tabName = "food_sec",
                                                   h1("Food security"),
@@ -553,6 +563,8 @@ ui <- dashboardPagePlus(skin = "blue",
                                                       h4("PGRFA not conserved in BGVCOL (i.e., NCB group) n = 70"),
                                                       img(height = 400,  src='http://ec2-54-227-84-137.compute-1.amazonaws.com/bgv/img/affor-pgrfa.png', style="vertical-align:middle"),
                                                       
+                                                      
+                                                      
                                                   ),
                                                   
 
@@ -589,7 +601,9 @@ ui <- dashboardPagePlus(skin = "blue",
                                                   fluidRow(
                                                       fluidPage(
                                                           h3("BGVCOL Priority Index result"),
-                                                          infoBoxOutput("intBGV")
+                                                          infoBoxOutput("intBGV"),
+                                                          #infoBoxOutput("segaBox3"),
+                                                          textOutput("chPriority"),
                                                       )
                                                   ),
 
@@ -805,6 +819,9 @@ server <- function(input, output,session) {
         paste('Species: ', input$selectEsp)
     })
     
+    
+
+    
     output$origEsp <- renderPlotly({
         # x <- as.numeric(input$selectCat)
         # print(x)
@@ -886,9 +903,9 @@ server <- function(input, output,session) {
         br()
         br()
         plot_ly(x = xprod, y = yprod, mode = 'scatter', color = I("green")) %>% 
-            layout(title = "Production in TON 2008-2018",
+            layout(title = "Production 2008-2018",
                    xaxis = list(title = 'Year'), 
-                   yaxis = list(title = 'Quantity')) %>% 
+                   yaxis = list(title = 'Production (tonnes)')) %>% 
             config(displayModeBar = F)
     })
     
@@ -903,7 +920,7 @@ server <- function(input, output,session) {
         plot_ly(x = xac, y = yac, mode = 'scatter', color = I("red")) %>% 
             layout(title = "Harvested area 2008-2018", 
                    xaxis = list(title = 'Year'), 
-                   yaxis = list(title = 'Area [HA]')) %>% 
+                   yaxis = list(title = 'Area (Hectares)')) %>% 
             config(displayModeBar = F)
     })  
     
@@ -918,7 +935,7 @@ server <- function(input, output,session) {
         plot_ly(x = xvp, y = yvp, mode = 'scatter', color = I("blue")) %>% 
             layout(title = "Production value 2008-2018", 
                    xaxis = list(title = 'Year'), 
-                   yaxis = list(title = 'Value')) %>% 
+                   yaxis = list(title = 'million COP/ha')) %>% 
             config(displayModeBar = F)
     })  
     
@@ -1256,11 +1273,51 @@ server <- function(input, output,session) {
             )      
         }
         
-    })    
+    })
+    
+        output$segaBox3 <- renderInfoBox({
+        
+        sa <- seleccionCriterios$seg_alimentaria_et[seleccionCriterios$nombre_cientifico == input$selectEsp]
+        if (sa == "High"){
+            infoBox(
+                "Food security: ", paste0(sa), icon = icon("carrot"),
+                color = "green", fill = FALSE, width = 6
+            )
+        } else if (sa == "Medium"){
+            infoBox(
+                "Food security: ", paste0(sa), icon = icon("drumstick-bite"),
+                color = "yellow", fill = FALSE
+            )      
+            
+        } else if (sa == "Low"){
+            infoBox(
+                "Food security: ", paste0(sa), icon = icon("cheese"),
+                color = "red", fill = FALSE
+            )
+            
+        } else if (sa == "Undetermined"){
+            infoBox(
+                "Food security: ", paste0(sa), icon = icon("question"),
+                color = "black", fill = FALSE
+            )      
+        }
+        
+    })
+    
+    output$chPriority <- renderText({
+    
+        pri <- seleccionCriterios$int_banco_et[seleccionCriterios$nombre_cientifico == input$selectEsp]
+        
+        paste('Priority: ', pri)
+    })
+    
+    
+    ##################################################
     
     output$intBGV <- renderInfoBox({
         
         int <- seleccionCriterios$int_banco_et[seleccionCriterios$nombre_cientifico == input$selectEsp]
+        
         if (int == "High"){
             infoBox(
                 "BGVCOL Priority: ", paste0(int), icon = icon("check-circle"),
@@ -1284,8 +1341,13 @@ server <- function(input, output,session) {
                 color = "black", fill = FALSE
             )      
         }
+
         
     })
+    
+    ##################################################
+    
+
     
     output$intBGV2 <- renderInfoBox({
         
